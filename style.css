@@ -117,15 +117,22 @@ nav a:hover
 }
 #banniere_image
 {
+	border: 1px black solid;
+	border-radius: 5px;
+	background: url('images/sanfrancisco.jpg') no-repeat;
+	margin-top: 10px;
 
 }
 #banniere_description
 {
-
+	/* Fond transparent */
+	background-color: rgba(0, 0, 0, 0.5);
 }
 .bouton_rouge
 {
-
+	background-color: red;
+	border-radius: 5px;
+	padding: 5px;
 }
 
 /* Définition d'une police personnalisée sur les menus H1 de section, footer et nav*/

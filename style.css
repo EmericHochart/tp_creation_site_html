@@ -150,7 +150,8 @@ nav a:hover
     position: absolute;
     right: 5px;
     bottom: 5px;
-    background: url('images/fond_degraderouge.png') repeat-x;
+    /*background: url('images/fond_degraderouge.png') repeat-x;*/
+    background-image: linear-gradient(to bottom, #AC6465, #770102);
     border: 1px solid #760001;
     border-radius: 5px;
     font-size: 1.2em;

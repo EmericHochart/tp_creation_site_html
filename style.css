@@ -45,9 +45,11 @@ body
 }
 #titre_principal
 {
+	/* Flex du titre principal*/
 	display: flex;
 	flex-direction: column;
-	margin: 0px;
+	justify-content: flex-start;
+
 }
 #logo
 {
@@ -58,24 +60,28 @@ header h1
 	/* Définition d'une police personnalisée */
 	font-family: BallparkWeiner, serif;
 	font-weight: normal;
+	/* transformation du titre en élèment block */
 	display: inline-block;
-
+	padding: 0;
+	margin: 0;
 }
 header h2
 {
 	/* Définition d'une police personnalisée */
 	font-family: Dayrom, serif;
 	font-weight: normal;
-
+	display: block;
+	padding: 0;
+	margin: 0;
 }
 header
 {
-	/* Test en flex*/
 	display: flex;
 	/* Alignement horizontal de part et d'autre*/
 	justify-content: space-between;
+	/* Alignement vertical */
 	align-content: flex-start;
-
+	
 
 }
 nav

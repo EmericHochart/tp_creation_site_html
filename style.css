@@ -28,15 +28,15 @@
 
 body 
 {
-	/* on fixe la largeur du site */
-	/* width: 900px; 
-	On choisit de passer en pourcentage*/
-	width: 50%;
-	margin: auto;
+	
 }
 #bloc_page 
 {
-
+	/* on fixe la largeur du site */
+		/* width: 900px; 
+		On choisit de passer en pourcentage*/
+		width: 50%;
+		margin: auto;
 }
 #titre_principal
 {

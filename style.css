@@ -28,7 +28,12 @@
 
 body 
 {
-	
+	/* Définition de l'image de fond */
+	background-image: url(images/fond_jaune.png);
+	/* Définition de la police par défaut */
+	font-family: 'Trebuchet MS', Arial, sans-serif;
+	/* Définition de la couleur de la police par défaut */
+	color: #181818;
 }
 #bloc_page 
 {

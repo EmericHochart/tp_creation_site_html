@@ -25,9 +25,14 @@
 }
 
 /* Définition des élèments principaux */
+
 body 
 {
-
+	/* on fixe la largeur du site */
+	/* width: 900px; 
+	On choisit de passer en pourcentage*/
+	width: 50%;
+	margin: auto;
 }
 #bloc_page 
 {
@@ -99,5 +104,5 @@ footer
 }
 #listes_amis
 {
-	
+
 }

@@ -45,18 +45,46 @@ body
 }
 #titre_principal
 {
-
+	display: flex;
+	flex-direction: column;
+	margin: 0px;
 }
 #logo
 {
+	
+}
+header h1
+{
+	/* Définition d'une police personnalisée */
+	font-family: BallparkWeiner, serif;
+	font-weight: normal;
+	display: inline-block;
+
+}
+header h2
+{
+	/* Définition d'une police personnalisée */
+	font-family: Dayrom, serif;
+	font-weight: normal;
 
 }
 header
 {
+	/* Test en flex*/
+	display: flex;
+	/* Alignement horizontal de part et d'autre*/
+	justify-content: space-between;
+	align-content: flex-start;
+
 
 }
 nav
 {
+	/*margin: auto;*/
+}
+nav li
+{
+	display: inline-block;
 
 }
 #banniere_image

@@ -71,8 +71,14 @@ nav
 {
 
 }
-section
+
+/* Définition d'une police personnalisée sur les menus H1 de section, footer et nav*/
+section h1, footer h1, nav a
 {
+	font-family: Dayrom, serif;
+	font-weight: normal;
+	/* On transforme le texte en majuscules*/
+	text-transform: uppercase;
 
 }
 .ico_categorie
